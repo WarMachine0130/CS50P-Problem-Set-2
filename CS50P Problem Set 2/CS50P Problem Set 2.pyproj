@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ae9aa1ab-dde9-472d-8144-bf865312928c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CS50P_Problem_Set_2.py</StartupFile>
+    <StartupFile>plates.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CS50P_Problem_Set_2.py" />
+    <Compile Include="camel.py" />
+    <Compile Include="coke.py" />
+    <Compile Include="plates.py" />
+    <Compile Include="twttr.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
